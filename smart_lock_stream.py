@@ -1,3 +1,4 @@
+
 import cv2
 from flask import Flask, Response
 import threading
@@ -5,7 +6,8 @@ import requests
 import time
 
 # ==== BLYNK CONFIG ====
-DEVICE_TOKEN = "fsL2n49Q3bPI37QO3EgEsiNYeguWuPFW"
+# Replace with your own Blynk device token
+DEVICE_TOKEN = "YOUR_BLYNK_DEVICE_TOKEN"
 BASE_URL = "https://blr1.blynk.cloud/external/api"
 
 app = Flask(__name__)
